@@ -22,8 +22,8 @@
 </head>
 
 <body class="font-manrope">
-    <header class="px-2 lg:px-32">
-        <nav>
+    <header class="px-4 lg:px-32">
+        <nav class="my-4 lg:my-10">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -43,8 +43,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold tracking-tighter">Hockey
-                        <span class="text-red-500">'</span>s
+                    <a class="text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-red-500">'</span>s
                     </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -67,34 +66,46 @@
                 </div>
             </div>
         </nav>
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
-                <img src="Images/1.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn bg-black text-white btn-circle">❮</a>
-                    <a href="#slide2" class="btn bg-black text-white btn-circle">❯</a>
+        <div class="lg:relative">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn bg-black text-white btn-circle">❮</a>
+                        <a href="#slide2" class="btn bg-black text-white btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a>
+                        <a href="#slide3" class="btn bg-black text-white btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn bg-black text-white btn-circle">❮</a>
+                        <a href="#slide4" class="btn bg-black text-white btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <div
+                        class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn bg-black text-white btn-circle">❮</a>
+                        <a href="#slide1" class="btn bg-black text-white btn-circle">❯</a>
+                    </div>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="Images/2.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a>
-                    <a href="#slide3" class="btn bg-black text-white btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <img src="Images/3.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn bg-black text-white btn-circle">❮</a>
-                    <a href="#slide4" class="btn bg-black text-white btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <img src="Images/4.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn bg-black text-white btn-circle">❮</a>
-                    <a href="#slide1" class="btn bg-black text-white btn-circle">❯</a>
-                </div>
+            <div class="bg-black text-white mt-4 lg:w-[560px] rounded-2xl p-4 lg:p-8 lg:absolute bottom-40 right-10">
+                <h1 class="font-extrabold text-2xl mb-4">Meet all the heroes from the field</h1>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin.</p>
             </div>
         </div>
     </header>

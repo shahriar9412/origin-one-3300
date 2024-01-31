@@ -22,8 +22,9 @@
 </head>
 
 <body class="font-manrope">
-    <header class="px-4 lg:px-32">
-        <nav class="my-4 lg:my-10">
+    <header class="mb-10 lg:mb-24 px-4 lg:px-32">
+        <!-- navbar -->
+        <nav class="my-4 lg:my-8">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -66,10 +67,11 @@
                 </div>
             </div>
         </nav>
+        <!-- banner -->
         <div class="lg:relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <img src="Images/1.png" class="w-full" />
                     <div
                         class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn bg-black text-white btn-circle">❮</a>
@@ -77,7 +79,7 @@
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <img src="Images/1.png" class="w-full" />
                     <div
                         class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a>
@@ -85,7 +87,7 @@
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <img src="Images/1.png" class="w-full" />
                     <div
                         class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn bg-black text-white btn-circle">❮</a>
@@ -93,7 +95,7 @@
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
-                    <img src="Images/1.png" class="w-full lg:h-4/5" />
+                    <img src="Images/1.png" class="w-full" />
                     <div
                         class="absolute flex justify-between lg:justify-start gap-5 transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn bg-black text-white btn-circle">❮</a>
@@ -101,14 +103,117 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-black text-white mt-4 lg:w-[560px] rounded-2xl p-4 lg:p-8 lg:absolute bottom-40 right-10">
-                <h1 class="font-extrabold text-2xl mb-4">Meet all the heroes from the field</h1>
-                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+            <!-- badge -->
+            <div class="bg-black text-white mt-4 lg:w-[560px] rounded-2xl p-4 lg:p-8 lg:absolute bottom-10 right-10">
+                <h1 class="font-extrabold text-lg lg:text-2xl mb-4">Meet all the heroes from the field</h1>
+                <p class="text-sm lg:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in
                     sit
                     nullam proin.</p>
             </div>
         </div>
     </header>
+    <main class="px-4 lg:px-32">
+        <!-- Radial progress section -->
+        <div class="mb-10 lg:mb-24">
+            <!-- heading -->
+            <hr class="border-dashed border-red-500">
+            <div class="text-center px-4 py-6 lg:py-8">
+                <h1 class="font-extrabold text-xl lg:text-4xl">Professional Hockeys Club</h1>
+                <p class="pt-4 lg:pt-6 text-sm lg:text-base lg:mx-[280px]">Dit amet consectetur. Condimentum dignissim
+                    adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.</p>
+            </div>
+            <hr class="border-dashed border-red-500 mb-8">
+            <!-- progress -->
+            <div class="flex flex-col lg:flex-row justify-between gap-7">
+
+                <div class="relative text-center">
+                    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">
+                        <p class="font-extrabold text-black">87%</p>
+                    </div>
+                    <h1 class="font-semibold text-xl">Prayer Facility</h1>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="relative text-center">
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">
+                        <p class="font-extrabold text-black">95%</p>
+                    </div>
+                    <h1 class="font-semibold text-xl">Experienced Coach</h1>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="relative text-center">
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">
+                        <p class="font-extrabold text-black">90%</p>
+                    </div>
+                    <h1 class="font-semibold text-xl">Senior Player</h1>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="relative text-center">
+                    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">
+                        <p class="font-extrabold text-black">80%</p>
+                    </div>
+                    <h1 class="font-semibold text-xl">Training Ground</h1>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- program section -->
+        <div class="mb-10 lg:mb-24">
+            <!-- heading -->
+            <hr class="border-dashed border-red-500">
+            <div class="text-center px-4 py-6 lg:py-8">
+                <h1 class="font-extrabold text-xl lg:text-4xl">Program Section</h1>
+                <p class="pt-4 lg:pt-6 text-sm lg:text-base lg:mx-[280px]">Dit amet consectetur. Condimentum dignissim
+                    adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.</p>
+            </div>
+            <hr class="border-dashed border-red-500 mb-8">
+        </div>
+        <!-- Our New Products section -->
+        <div class="mb-10 lg:mb-24">
+            <!-- heading -->
+            <hr class="border-dashed border-red-500">
+            <div class="text-center px-4 py-6 lg:py-8">
+                <h1 class="font-extrabold text-xl lg:text-4xl">Our New Products</h1>
+                <p class="pt-4 lg:pt-6 text-sm lg:text-base lg:mx-[280px]">Dit amet consectetur. Condimentum dignissim
+                    adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.</p>
+            </div>
+            <hr class="border-dashed border-red-500 mb-8">
+        </div>
+        <!-- Clients Questions section -->
+        <div class="mb-10 lg:mb-24">
+            <!-- heading -->
+            <hr class="border-dashed border-red-500">
+            <div class="text-center px-4 py-6 lg:py-8">
+                <h1 class="font-extrabold text-xl lg:text-4xl">Clients Questions</h1>
+                <p class="pt-4 lg:pt-6 text-sm lg:text-base lg:mx-[280px]">Dit amet consectetur. Condimentum dignissim
+                    adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.</p>
+            </div>
+            <hr class="border-dashed border-red-500 mb-8">
+        </div>
+        <!-- Get In Touch section -->
+        <div class="mb-10 lg:mb-24">
+            <!-- heading -->
+            <hr class="border-dashed border-red-500">
+            <div class="text-center px-4 py-6 lg:py-8">
+                <h1 class="font-extrabold text-xl lg:text-4xl">Get In Touch</h1>
+                <p class="pt-4 lg:pt-6 text-sm lg:text-base lg:mx-[280px]">Dit amet consectetur. Condimentum dignissim
+                    adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin.</p>
+            </div>
+            <hr class="border-dashed border-red-500 mb-8">
+        </div>
+
+    </main>
 </body>
 
 </html>
